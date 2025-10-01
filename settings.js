@@ -6,13 +6,13 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "NENO-XMD~ePBnBbYI#btKtlvl3bBtIduJ2CjNi0kgmyZN8v2Q5o0trqaRQpMQ",
+    SESSION_ID: process.env.SESSION_ID || "NENO-XMD~XXQyRbqK#75kyihzjIKbqN3e30ebU35fLMVNc1I27HMi9iXYbAnY",
     // add your Session Id make sure it starts with NENO~
 
     PREFIX: process.env.PREFIX || ".",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "ɴᴇɴᴏ-xᴍᴅ",
+    BOT_NAME: process.env.BOT_NAME || "DyMen-BoT",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",
