@@ -15,10 +15,10 @@ module.exports = {
     BOT_NAME: process.env.BOT_NAME || "DyMen-BoT",
     // add bot name here for menu
 
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     // make bot public-private-inbox-group 
 
-    LINK_WHITELIST: "youtube.com,github.com",
+    LINK_WHITELIST: "youtube.com,github.com,instagram.com,tiktok.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
@@ -33,7 +33,7 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY NENO.XMD 💖😍*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*STATUS BY DyMen-BoT 💖😍*",
     // set the auto reply message on status reply  
 
     WELCOME: process.env.WELCOME || "true",
@@ -41,7 +41,7 @@ module.exports = {
 
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
 
-    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
     // make true to know who dismiss or promoted a member in group
 
     ANTI_LINK: process.env.ANTI_LINK || "true",
@@ -50,23 +50,16 @@ module.exports = {
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
     // make true if want auto voice reply if someone mention you 
 
-    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/u5qpen.jpg",
+    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "",
     // add custom menu and mention reply image url
 
-    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/u5qpen.jpg",
+    ALIVE_IMG: process.env.ALIVE_IMG || "",
     // add img for alive msg
 
-    LIVE_MSG: process.env.LIVE_MSG || 
-`> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ
-
-ᴋᴇᴇᴘ ᴜsɪɴɢ ✦ɴᴇɴᴏ xᴍᴅ✦ ʙʏ ɴɪᴍᴇꜱʜᴋᴀ⚡
-
-*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ -ɴᴇɴᴏ xᴍᴅ*
-
-> ɢɪᴛʜᴜʙ : https://github.com/Nimeshkamihiran`,
+    LIVE_MSG: process.env.LIVE_MSG || `> ʙᴏᴛ ɪs ᴀᴄᴛɪᴠᴇ`,
     // add alive msg here 
 
-    STICKER_NAME: process.env.STICKER_NAME || "ɴᴇɴᴏ ᴠ3",
+    STICKER_NAME: process.env.STICKER_NAME || "DyMen",
     // type sticker pack name 
 
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -78,16 +71,16 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "94721584279",
+    // OWNER_NUMBER: process.env.OWNER_NUMBER || "94721584279",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ɴɪᴍᴇꜱʜᴋᴀ࿐",
+    OWNER_NAME: process.env.OWNER_NAME || "DyMen",
     // add bot owner name
 
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴɪᴍᴇꜱʜᴋᴀ ᴍɪʜɪʀᴀᴍ*",
+    DESCRIPTION: process.env.DESCRIPTION || "*© Powered by DyMen*",
     // add bot owner description  
 
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",
     // Turn true or false for automatic read msgs
 
     AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -111,13 +104,13 @@ module.exports = {
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     // make false if want private mode
 
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
     // true for automatic show typing  
 
-    READ_CMD: process.env.READ_CMD || "false",
+    READ_CMD: process.env.READ_CMD || "true",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "94721584279",
+    DEV: process.env.DEV || "‪393514714807‬",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
@@ -132,21 +125,8 @@ module.exports = {
     version: process.env.version || "0.0.5",
 
     START_MSG: process.env.START_MSG || 
-`*Hᴇʟʟᴏ ᴀʟʟ ɪᴀᴍ ɴᴇɴᴏ xᴍᴅ ᴡʜᴀᴛꜱᴘᴘ ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
-
-*💖ᴋᴇᴇᴘ ᴏɴ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ💫☺️* 
-
-> sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴛᴜᴛᴏʀɪᴀʟs
-https://youtube.com/@MihirangaMihiranga-k1k
-
-- *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
-> - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
-
-> ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-https://github.com/Nimeshkamihiran/neno-xmd-V3
-
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴɪᴍᴇꜱʜᴋᴀ ᴍɪʜɪʀᴀɴ💖😍`,
-OWNER_DISPLAY: process.env.OWNER_DISPLAY || "Nimeshka Mihiran",
+`*> ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻*`,
+OWNER_DISPLAY: process.env.OWNER_DISPLAY || "DyMen",
     
 DOWNLOAD_DIR: process.env.DOWNLOAD_DIR || "./downloaded_status",
 
